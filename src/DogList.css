@@ -1,0 +1,41 @@
+ .DogList img {
+  border-radius: 80%;
+  width: 25%;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.868);
+} 
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col-3 {
+  width: 25%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.col-3 img {
+  width: 100%;
+  height: auto;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+h2.text-center {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+
+h3 a:hover {
+  color: #0056b3;
+}
